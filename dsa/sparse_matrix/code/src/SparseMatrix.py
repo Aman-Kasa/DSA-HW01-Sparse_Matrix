@@ -1,4 +1,37 @@
+#!/usr/bin/env python3
+"""
+SparseMatrix Class Implementation
+
+This module defines a SparseMatrix class that supports basic operations 
+on sparse matrices, including addition, subtraction, and multiplication.
+
+Features:
+- Load a sparse matrix from a file.
+- Perform matrix arithmetic operations (addition, subtraction, multiplication).
+- Retrieve or modify elements in the sparse matrix.
+
+Usage:
+    matrix1 = SparseMatrix(matrixFilePath="matrix1.txt")
+    matrix2 = SparseMatrix(matrixFilePath="matrix2.txt")
+    result = matrix1.add(matrix2)  # Perform addition
+
+Author: AMAN KASA
+Date: FEB 19 2025
+"""
 class SparseMatrix:
+    """
+    A class representing a sparse matrix.
+
+    Attributes:
+        matrix (dict): A dictionary storing the non-zero elements of the matrix.
+        numRows (int): The number of rows in the matrix.
+        numCols (int): The number of columns in the matrix.
+
+    Methods:
+        __init__: Initializes the sparse matrix with a file path or dimensions.
+        read_matrix_from_file: Reads a sparse matrix from a file.
+        # ... other methods ...
+    """
     def __init__(self, matrixFilePath=None, numRows=0, numCols=0):
         self.matrix = {}
         if matrixFilePath:
