@@ -74,5 +74,5 @@ Contributions are welcome! Please feel free to submit a Pull Request   // âœŒðŸ
 Acknowledgments
 I would like to thank:
 
-Mr. Waka for his guidance and support throughout this project.
-ChatGPT for assistance with code suggestions and documentation.
+---->>>Mr. Waka for his guidance and support throughout this project.
+---->>>ChatGPT for assistance with code suggestions and documentation.
